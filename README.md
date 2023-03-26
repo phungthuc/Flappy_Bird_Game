@@ -1,2 +1,2 @@
 # Flappy_Bird_Game
- Canvas Game Basic
+Simple website, click [here](https://phungthuc.github.io/Flappy_Bird_Game/).
