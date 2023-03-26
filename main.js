@@ -45,6 +45,10 @@ document.body.onkeyup = function(e) {
     }
 }
 
+canvas.addEventListener("touchcancel", () => {
+    birdVelocity = FLAP_SPEED;
+});
+
 function init() {
     requestAnimationFrame(gameLoop);
 }
