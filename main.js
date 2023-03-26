@@ -45,7 +45,7 @@ document.body.onkeyup = function(e) {
     }
 }
 
-canvas.addEventListener("touchcancel", () => {
+window.addEventListener("touchstart", function (event) {
     birdVelocity = FLAP_SPEED;
 });
 
