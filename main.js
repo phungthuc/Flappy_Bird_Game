@@ -45,7 +45,7 @@ document.body.onkeyup = function(e) {
     }
 }
 
-window.addEventListener("touchstart", function (event) {
+window.addEventListener("touchend", function (event) {
     birdVelocity = FLAP_SPEED;
 });
 
